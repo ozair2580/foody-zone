@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import { useEffect, useState } from 'react';
-const BASE_URL='http://localhost:9000/';
+const BASE_URL='https://foody-zone-6.onrender.com/';
 function App() {
  const [ApiData,setApiData]=useState([]);
  const [filterName,setfilterName]=useState("All");
